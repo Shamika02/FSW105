@@ -1,13 +1,13 @@
 
-var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function Who_Wins (is_there_kryptonite,enemy_name);
+function Who_Wins (is_there_kryptonite,enemyName)
 {
-if (is-there-kryptonite)
+if (is_there_kryptonite)
 {
     return "Superman beats " +enemyName+ ", of course";
 } else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
 }
     }
 
@@ -25,7 +25,7 @@ for (var i=0;i<enemies.length;i++)
 function HowAttractedIsLoisLaneToMe ()
 {
   
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random()*10)+1);
 }
 
 console.log( HowAttractedIsLoisLaneToMe ()) ;
