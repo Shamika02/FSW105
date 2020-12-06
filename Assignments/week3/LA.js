@@ -20,4 +20,10 @@ var peopleWhoWantToSeeMadMaxFuryRoad=[
         age: 4,
         gender: "female"
     }
-]
+];
+var count = 0;
+
+for (var i >=18 ; i < peopleWhoWantToSeeMadMaxFuryRoa.length; i++){
+    if (age[i] === "old enough"){
+        count++;
+    }
