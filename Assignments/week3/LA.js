@@ -1,4 +1,9 @@
-var peopleWhoWantToSeeMadMaxFuryRoad=[
+var age = prompt("Please enter your age");
+		if(age>=18)
+		document.write("You are old enough <br />");
+		if(age<18)
+		document.write("You are not old enough <br />");
+
     {
         name: "Mike",
         age: 12,
@@ -19,11 +24,4 @@ var peopleWhoWantToSeeMadMaxFuryRoad=[
         name: "Suzy",
         age: 4,
         gender: "female"
-    }
-];
-var count = 0;
-
-for (var i >=18 ; i < peopleWhoWantToSeeMadMaxFuryRoa.length; i++){
-    if (age[i] === "old enough"){
-        count++;
     }
