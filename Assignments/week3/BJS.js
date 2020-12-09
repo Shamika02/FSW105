@@ -30,12 +30,4 @@ for(let count =0; count<=1;count++){
     count%2==0? console.log(`${count} is even`):console.log(`${count} is odd`);
     ;
    }
-   //Write a function that accepts a string as a parameter. 
-
-   public class Main {
-    public static void main(String[] args) {
-      String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      System.out.println("The length of the txt string is: " + txt.length());
-    }
-  
-  }
+   
