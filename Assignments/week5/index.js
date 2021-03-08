@@ -2,29 +2,30 @@
 var fruit = ["banana","apple","orange","watermelon"];
 var vegetables = ["carrot","tomato","pepper","lettuce"];
 var last=vegetables.pop()
-console.log(vegetables + "<br>");
+console.log("vegetables array values;"+ vegetables);
 
 ///2.Remove the first item from the fruit array.
-var fruit = ["banana","apple","orange","watermelon"];
-var first = fruit.shift();
-console.log(fruit + "<br>");
+fruit.shift();
+console.log("fruit Array Values;" + fruit);
 
 //3.Find the index of "orange."
-var fruit = ["banana","apple","orange","watermelon"];
-console.log(fruit.indexOf("orange"));
-
-//4.Add that number to the end of the fruit array.
-var fruit = ["banana","apple","orange","watermelon"];
-fruit.push("1");
+var fruit= fruit.indexOf("orange");
 console.log(fruit);
 
+//4.Add that number to the end of the fruit array.
+var fruit= ["apple","orange","watermelon"] 
+fruit.push("1")
+console.log("fruit Array Values;"+ fruit);
+
+
+
+
+
 //5.Use the length property to find the length of the vegetable array.
-var vegetables = ["carrot","tomato","pepper","lettuce"];
-console.log(vegetables.length);
+console.log(vegetables);
 
 //6.Add that number to the end of the vegetable array.
 var last=vegetables.pop()
-console.log(vegetables + "<br>")
 vegetables.push("3");
 console.log(vegetables);
 
